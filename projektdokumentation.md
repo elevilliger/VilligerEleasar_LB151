@@ -18,8 +18,6 @@ Ein Glücksradspiel, in dem man verschiedene Wörter schreiben kann.
 
 # 1 Analyse
 
-✍️ Beschreiben Sie, auf welchem Tier Sie die dynamischen Elemente der Anwendung unterbringen möchten:
-
 * Tier 1 (Presentation): Glücksrad, Rate-Wand und Eingabefelder, Kontostand und Lebenspunkte.
 * Tier 2 (Webserver): Eingabevalidierung, Weiterleitung der Eingabedaten, Vergleich des geratenen Buchstabens mit der Datenbank.
 * Tier 3 (Application Server): , Guthaben gutschreiben, Highscorelisteneintrag tätigen.
@@ -75,7 +73,7 @@ MySQL. Python greift dabei mittels eines "MySQL driver" auf die Datenbank zu. Ve
 
 # 5 Prototyp
 
-✍️ Erstellen Sie Prototypen für das GUI (Admin-Interface und Quiz-Seite).
+![grafik](https://user-images.githubusercontent.com/89772768/212046158-7e927f4c-82bc-4256-9949-5a0e1dc24d7b.png)
 
 # 6 Implementation
 
