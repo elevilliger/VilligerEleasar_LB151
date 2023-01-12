@@ -1,10 +1,10 @@
 # Projekt-Dokumentation
 
-✍️ Ihr Nachname
+Villiger
 
-| Datum | Version | Zusammenfassung                                              |
-| ----- | ------- | ------------------------------------------------------------ |
-|       | 0.0.1   | ✍️ Jedes Mal, wenn Sie an dem Projekt arbeiten, fügen Sie hier eine neue Zeile ein und beschreiben in *einem* Satz, was Sie erreicht haben. |
+| Datum    | Version | Zusammenfassung                                              |
+| -----    | ------- | ------------------------------------------------------------ |
+| 12.01.23 | 0.0.1   | Ich habe die Punkte 1 -5 in der Projekt-Dokumentation ausgefüllt. |
 |       | 0.0.2   |                                                              |
 |       | 0.0.3   |                                                              |
 |       | 0.0.4   |                                                              |
@@ -14,24 +14,24 @@
 
 # 0 Ihr Projekt
 
-✍️ Beschreiben Sie Ihr Projekt in einem griffigen Satz.
+Ein Glücksradspiel, in dem man verschiedene Wörter schreiben kann.
 
 # 1 Analyse
 
 ✍️ Beschreiben Sie, auf welchem Tier Sie die dynamischen Elemente der Anwendung unterbringen möchten:
 
-* Tier 1 (Presentation): ...
-* Tier 2 (Webserver):
-* Tier 3 (Application Server):
-* Tier 4 (Dataserver):
+* Tier 1 (Presentation): Glücksrad, Rate-Wand und Eingabefelder, Kontostand und Lebenspunkte.
+* Tier 2 (Webserver): Eingabevalidierung, Weiterleitung der Eingabedaten, Vergleich des geratenen Buchstabens mit der Datenbank.
+* Tier 3 (Application Server): , Guthaben gutschreiben, Highscorelisteneintrag tätigen.
+* Tier 4 (Dataserver): Datenbanken mit Wörtern / Sprichwörtern, Benutzerdaten und Highscores verwalten.
 
 # 2 Technologie
 
-✍️ Beschreiben Sie für dieselben Tiers, welche Programmiersprache bzw. Technologie Sie verwenden möchten.
+Python
 
 # 3 Datenbank
 
-✍️ Wie steuern Sie Ihre Datenbank an? Wie ist das Interface aufgebaut? 
+MySQL. Python greift dabei mittels eines "MySQL driver" auf die Datenbank zu. Vermutlich werde ich dazu den "MySQL Connector" verwenden.
 
 # 4.1 User Stories
 
@@ -39,10 +39,21 @@
 
 ✍️ Formulieren Sie weitere, eigene Anforderungen und Testfälle, wie Sie Ihre Applikation erweitern möchten. Geben Sie diesen statt einer Nummer einen Buchstaben (`A`, `B`, etc.)
 
-| US-№ | Verbindlichkeit | Typ  | Beschreibung                       |
-| ---- | --------------- | ---- | ---------------------------------- |
-| 1    |                 |      | Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️ |
-| ...  |                 |      |                                    |
+| US-№ | Verbindlichkeit | Typ        | Beschreibung                       |
+| ---- | --------------- | ---------- | ---------------------------------- |
+| 1    | Muss            | Qualität   | Als ein Administrator möchte ich mittels Benutzernamen und Passwort anmelden können, damit sich nicht jede beliebige Person als   |                                       Admnistrator ausgeben kann  |
+| 1    |             |            | Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️ |
+| 1    |             |            | Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️ |
+| 1    |             |            | Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️ |
+| 1    |             |            | Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️ |
+| 1    |             |            | Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️ |
+| 1    |             |            | Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️ |
+| 1    |             |            | Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️ |
+| 1    |             |            | Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️ |
+| 1    |             |            | Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️ |
+| 1    |             |            | Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️ |
+
+
 
 ✍️ Jede User Story hat eine ganzzahlige Nummer (1, 2, 3 etc. oder Zahl), eine Verbindlichkeit (Muss oder Kann?), und einen Typ (Funktional, Qualität, Rand). 
 
