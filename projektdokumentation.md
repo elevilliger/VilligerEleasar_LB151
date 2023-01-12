@@ -73,7 +73,10 @@ MySQL. Python greift dabei mittels eines "MySQL driver" auf die Datenbank zu. Ve
 
 # 5 Prototyp
 
+Admin-Interface
 ![grafik](https://user-images.githubusercontent.com/89772768/212046158-7e927f4c-82bc-4256-9949-5a0e1dc24d7b.png)
+
+Quiz-Seite
 
 # 6 Implementation
 
