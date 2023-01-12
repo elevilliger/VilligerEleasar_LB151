@@ -51,6 +51,8 @@ MySQL. Python greift dabei mittels eines "MySQL driver" auf die Datenbank zu. Ve
 | 8    | Muss            | Qualität      | Als ein Kandidat möchte ich, dass die Rangliste nach Rang, welcher durch die Höhe des Geldbetrags bestimmt wird, aufsteigend sortiert wird, damit ich eine übersichtliche Rangliste habe. |
 | 9    | Muss            | Qualität      | Als ein Kandidat möchte ich dass mir Rätsel-Wörter und Phrasen nur einmal pro Spiel gestellt werden, damit die Spielbedingungen fair sind. |
 | 10   | Muss            | Funktional    | Als ein Kandidat möchte ich jederzeit spielen oder aufhören können, damit ich die Kontrolle über die Dauer des Spiels habe. |
+| A    | Muss            | Funktional    | Als ein Kandidat möchte ich zu jederzeit meines Zugs Vokalen kaufen können, damit mir diese nicht ausgehen. |
+| B    | Muss            | Funktional    | Als ein Kandidat möchte ich beim Er-Drehen des Bankrott-Feldes mein Kontostand auf null geht, damit das Spiel fair bleibt. |
 
  
 
@@ -61,16 +63,15 @@ MySQL. Python greift dabei mittels eines "MySQL driver" auf die Datenbank zu. Ve
 | 1.1  | Applikation ist gestartet. | 1. Auf "Als Administrator anmelden" klicken.<br>2. Benutzername "admin" und Passwort "admin1234" eingeben. | Der Adminmodus sollte nun gestartet sein. |
 | 2.1  | Applikation ist gestartet. | 1. Auf "Als Administrator anmelden" klicken.<br>2. Benutzername "admin" und Passwort "admin1234" eingeben.<br>3. Auf "Datenbank bearbeiten" klicken.<br>4. Drei neue Rätselwörter namens "Hoppla", "Ups" und "Ehhh" anlegen.<br>5. Das Wort "Hoppla" zu "Hopla" verändern.<br>6. Das Wort "Ehhh" löschen. Auf "Datenbank ansehen" klicken. | In der Datenbank sollten die Wörter "Hopla" und "Ups" vorhanden sein. |
 | 3.1  | Applikation ist gestartet. | 1. Auf "Als Administrator anmelden" klicken.<br>2. Benutzername "admin" und Passwort "admin1234" eingeben.<br>3. Auf "Datenbank bearbeiten" klicken.<br>4.Eine neue Kategorie namens "Test" anlegen.<br>5. Ein neues Wort "UFF" zur Kategorie hinzufügen.<br>6. Auf "Datenbank ansehen" klicken. | In der Datenbank sollte eine Kategorie namens "Test" vorhanden sein die das Wort "UFF" enthält. |
-| 4.1  | Applikation ist gestartet. | 1.         |                   |
-| 5.1  | Applikation ist gestartet. |         |                   |
-| 6.1  | Applikation ist gestartet. |         |                   |
-| 7.1  | Applikation ist gestartet. |         |                   |
-| 8.1  | Applikation ist gestartet. |         |                   |
-| 9.1  | Applikation ist gestartet. |         |                   |
-| 10.1 | Applikation ist gestartet. |         |                   |
-
-
-✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, die der Testfall abdeckt, und `m` von `1` an nach oben gezählt. Beispiel: Der dritte Testfall, der die zweite User Story abdeckt, hat also die Nummer `2.3`.
+| 4.1  | Applikation ist gestartet. | 1. Auf "Als Administrator anmelden" klicken.<br>2. Benutzername "admin" und Passwort "admin1234" eingeben.<br>3. Auf "Highscore-Liste bearbeiten" klicken.<br>4. Einen beliebigen Eintrag löschen. | Der Eintrag sollte aus der Highscore-Liste entfernt worden sein. |
+| 5.1  | Applikation ist gestartet. | 1. Ein Spiel starten.<br>2. Auf "Spiel beenden" klicken.<br>3. Den Namen "Biden" eingeben.<br>4. Auf "Rangliste" klicken. | Auf der Rangliste sollte ein Eintrag mit dem Namen "Biden" vorhanden sein. |
+| 6.1  | Applikation ist gestartet. | 1. Ein Spiel starten. | Auf dem Bildschirm sollten der aktuelle Kontostand und die Lebenspunkte angezeigt werden. |
+| 7.1  | Applikation ist gestartet. | 1. Ein Spiel starten.<br>2. Auf "Spiel beenden" klicken.<br>3. Den Namen "Trump" eingeben.<br>4. Auf "Rangliste" klicken. | Auf der Rangliste sollte ein Eintrag mit Rang, dem Namen "Trump", der aktuelle Zeitpunkt, der letzte Geldbetrag und die Anzahl Spielrunden angezeigt werden. |
+| 8.1  | Applikation ist gestartet. | 1. Auf "Rangliste" klicken. | Die Rangliste sollte aufsteigend nach Rang / Höhe des Geldbetrags sortiert angezeigt werden. |
+| 9.1  | Applikation ist gestartet. | 1. Ein Spiel starten.<br>2. Einige Rätsel-Wörter / Phrasen beantworten. | Keine der Rätsel-Wörter / Phrase sollten zwei Mal vorkommen. |
+| 10.1 | Applikation ist gestartet. | 1. Ein Spiel starten.<br>2. Das Spiel beenden. | Das Spiel sollte beendet werden. |
+| A.1  | Applikation ist gestartet. | 1. Ein Spiel starten.<br>2. Ein Vokal kaufen. | Der Benutzer sollte das Vokal gekauft haben. |
+| A.2  | Applikation ist gestartet. | 1. Ein Spiel starten.<br>2. Solange am Glücksrad drehen, bis das Feld "Bankrott" erdreht wird. | Der Kontostand sollte auf null gehen. |
 
 # 5 Prototyp
 
