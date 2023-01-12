@@ -41,7 +41,7 @@ MySQL. Python greift dabei mittels eines "MySQL driver" auf die Datenbank zu. Ve
 
 | US-№ | Verbindlichkeit | Typ        | Beschreibung                       |
 | ---- | --------------- | ---------- | ---------------------------------- |
-| 1    | Muss            | Qualität   | Als ein Administrator möchte ich mittels Benutzernamen und Passwort anmelden können, damit sich nicht jede beliebige Person als   |                                       Admnistrator ausgeben kann  |
+| 1    | Muss            | Qualität   | Als ein Administrator möchte ich mittels Benutzernamen und Passwort anmelden können, damit sich nicht jede beliebige Person als Admnistrator ausgeben kann |
 | 1    |             |            | Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️ |
 | 1    |             |            | Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️ |
 | 1    |             |            | Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️ |
