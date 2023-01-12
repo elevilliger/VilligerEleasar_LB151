@@ -41,28 +41,34 @@ MySQL. Python greift dabei mittels eines "MySQL driver" auf die Datenbank zu. Ve
 
 | US-№ | Verbindlichkeit | Typ        | Beschreibung                       |
 | ---- | --------------- | ---------- | ---------------------------------- |
-| 1    | Muss            | Qualität   | Als ein Administrator möchte ich mittels Benutzernamen und Passwort anmelden können, damit sich nicht jede beliebige Person als Admnistrator ausgeben kann |
-| 1    |             |            | Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️ |
-| 1    |             |            | Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️ |
-| 1    |             |            | Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️ |
-| 1    |             |            | Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️ |
-| 1    |             |            | Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️ |
-| 1    |             |            | Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️ |
-| 1    |             |            | Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️ |
-| 1    |             |            | Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️ |
-| 1    |             |            | Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️ |
-| 1    |             |            | Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️ |
+| 1    | Muss            | Qualität      | Als ein Administrator möchte ich mittels Benutzernamen und Passwort anmelden können, damit sich nicht jede beliebige Person als Administrator ausgeben kann. |
+| 2    | Muss            | Funktional    | Als ein Administrator möchte ich Phrasen und Rätselwörtern anlegen, ändern und löschen können, damit die Datenbank ergänzt oder verbessert werden kann. |
+| 3    | Muss            | Qualität      | Als ein Administrator möchte ich Kategorien anlegen können und jedes Wort bzw. jede Frage einer Kategorie zuordnen können, damit die Datenbank schön gegliedert ist. |
+| 4    | Muss            | Funktional    | Als ein Administrator möchte ich einzelne Einträge der Highscore-Liste löschen können, damit ungültige Einträge entfernt werden können. |
+| 5    | Muss            | Qualität      | Als ein Kandidat möchte ich einen Namen eingeben können, damit dieser dann auf der Rangliste angezeigt werden kann. |
+| 6    | Muss            | Randbedingung | Als ein Kandidat möchte ich jederzeit meinen Kontostand und meine Lebenspunkte sehen, damit ich über den aktuellen Spielstand informiert bin. |
+| 7    | Muss            | Qualität      | Als ein Kandidat möchte ich, dass mein Rang, mein Name, der Zeitpunkt des Spiels, der Geldbetrag und die Anzahl Spielrunden in der Rangliste angezeigt werden, damit ich mich mit anderen Kandidaten vergleichen kann. |
+| 8    | Muss            | Qualität      | Als ein Kandidat möchte ich, dass die Rangliste nach Rang, welcher durch die Höhe des Geldbetrags bestimmt wird, aufsteigend sortiert wird, damit ich eine übersichtliche Rangliste habe. |
+| 9    | Muss            | Qualität      | Als ein Kandidat möchte ich dass mir Rätsel-Wörter und Phrasen nur einmal pro Spiel gestellt werden, damit die Spielbedingungen fair sind. |
+| 10   | Muss            | Funktional    | Als ein Kandidat möchte ich jederzeit spielen oder aufhören können, damit ich die Kontrolle über die Dauer des Spiels habe. |
 
-
-
-✍️ Jede User Story hat eine ganzzahlige Nummer (1, 2, 3 etc. oder Zahl), eine Verbindlichkeit (Muss oder Kann?), und einen Typ (Funktional, Qualität, Rand). 
+ 
 
 # 4.2 Testfälle
 
-| TC-№ | Vorbereitung | Eingabe | Erwartete Ausgabe |
-| ---- | ------------ | ------- | ----------------- |
-| 1.1  |              |         |                   |
-| ...  |              |         |                   |
+| TC-№ | Vorbereitung               | Eingabe | Erwartete Ausgabe |
+| ---- | -------------------------- | ------- | ----------------- |
+| 1.1  | Applikation ist gestartet. | 1. Auf "Als Administrator anmelden" klicken.<br>2. Benutzername "admin" und Passwort "admin1234" eingeben. | Der Adminmodus sollte nun gestartet sein. |
+| 2.1  | Applikation ist gestartet. | 1. Auf "Als Administrator anmelden" klicken.<br>2. Auf "Datenbank bearbeiten" klikcne.<br>3.         |                   |
+| 3.1  | Applikation ist gestartet. |         |                   |
+| 4.1  | Applikation ist gestartet. |         |                   |
+| 5.1  | Applikation ist gestartet. |         |                   |
+| 6.1  | Applikation ist gestartet. |         |                   |
+| 7.1  | Applikation ist gestartet. |         |                   |
+| 8.1  | Applikation ist gestartet. |         |                   |
+| 9.1  | Applikation ist gestartet. |         |                   |
+| 10.1 | Applikation ist gestartet. |         |                   |
+
 
 ✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, die der Testfall abdeckt, und `m` von `1` an nach oben gezählt. Beispiel: Der dritte Testfall, der die zweite User Story abdeckt, hat also die Nummer `2.3`.
 
