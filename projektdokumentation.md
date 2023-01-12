@@ -59,9 +59,9 @@ MySQL. Python greift dabei mittels eines "MySQL driver" auf die Datenbank zu. Ve
 | TC-№ | Vorbereitung               | Eingabe | Erwartete Ausgabe |
 | ---- | -------------------------- | ------- | ----------------- |
 | 1.1  | Applikation ist gestartet. | 1. Auf "Als Administrator anmelden" klicken.<br>2. Benutzername "admin" und Passwort "admin1234" eingeben. | Der Adminmodus sollte nun gestartet sein. |
-| 2.1  | Applikation ist gestartet. | 1. Auf "Als Administrator anmelden" klicken.<br>2. Auf "Datenbank bearbeiten" klikcne.<br>3.         |                   |
-| 3.1  | Applikation ist gestartet. |         |                   |
-| 4.1  | Applikation ist gestartet. |         |                   |
+| 2.1  | Applikation ist gestartet. | 1. Auf "Als Administrator anmelden" klicken.<br>2. Benutzername "admin" und Passwort "admin1234" eingeben.<br>3. Auf "Datenbank bearbeiten" klicken.<br>4. Drei neue Rätselwörter namens "Hoppla", "Ups" und "Ehhh" anlegen.<br>5. Das Wort "Hoppla" zu "Hopla" verändern.<br>6. Das Wort "Ehhh" löschen. Auf "Datenbank ansehen" klicken. | In der Datenbank sollten die Wörter "Hopla" und "Ups" vorhanden sein. |
+| 3.1  | Applikation ist gestartet. | 1. Auf "Als Administrator anmelden" klicken.<br>2. Benutzername "admin" und Passwort "admin1234" eingeben.<br>3. Auf "Datenbank bearbeiten" klicken.<br>4.Eine neue Kategorie namens "Test" anlegen.<br>5. Ein neues Wort "UFF" zur Kategorie hinzufügen.<br>6. Auf "Datenbank ansehen" klicken. | In der Datenbank sollte eine Kategorie namens "Test" vorhanden sein die das Wort "UFF" enthält. |
+| 4.1  | Applikation ist gestartet. | 1.         |                   |
 | 5.1  | Applikation ist gestartet. |         |                   |
 | 6.1  | Applikation ist gestartet. |         |                   |
 | 7.1  | Applikation ist gestartet. |         |                   |
