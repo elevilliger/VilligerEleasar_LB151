@@ -49,8 +49,8 @@ MySQL. Python greift dabei mittels eines "MySQL driver" auf die Datenbank zu. Ve
 | 8    | Muss            | Qualität      | Als ein Kandidat möchte ich, dass die Rangliste nach Rang, welcher durch die Höhe des Geldbetrags bestimmt wird, aufsteigend sortiert wird, damit ich eine übersichtliche Rangliste habe. |
 | 9    | Muss            | Qualität      | Als ein Kandidat möchte ich dass mir Rätsel-Wörter und Phrasen nur einmal pro Spiel gestellt werden, damit die Spielbedingungen fair sind. |
 | 10   | Muss            | Funktional    | Als ein Kandidat möchte ich jederzeit spielen oder aufhören können, damit ich die Kontrolle über die Dauer des Spiels habe. |
-| A    | Muss            | Funktional    | Als ein Kandidat möchte ich zu jederzeit meines Zugs Vokalen kaufen können, damit mir diese nicht ausgehen. |
-| B    | Muss            | Funktional    | Als ein Kandidat möchte ich beim Er-Drehen des Bankrott-Feldes mein Kontostand auf null geht, damit das Spiel fair bleibt. |
+| A    | Muss            | Randbedingung | Als ein Programmierer möchte ich mein Spiel mittels Python implementieren, damit ich Spass beim Implementieren habe. |
+| B    | Muss            | Randbedingung | Als ein Kandidat möchte, dass das Spiel in Darkmode implementiert ist, damit es gut aussieht. |
 
  
 
@@ -68,8 +68,7 @@ MySQL. Python greift dabei mittels eines "MySQL driver" auf die Datenbank zu. Ve
 | 8.1  | Applikation ist gestartet. | 1. Auf "Rangliste" klicken. | Die Rangliste sollte aufsteigend nach Rang / Höhe des Geldbetrags sortiert angezeigt werden. |
 | 9.1  | Applikation ist gestartet. | 1. Ein Spiel starten.<br>2. Einige Rätsel-Wörter / Phrasen beantworten. | Keine der Rätsel-Wörter / Phrase sollten zwei Mal vorkommen. |
 | 10.1 | Applikation ist gestartet. | 1. Ein Spiel starten.<br>2. Das Spiel beenden. | Das Spiel sollte beendet werden. |
-| A.1  | Applikation ist gestartet. | 1. Ein Spiel starten.<br>2. Ein Vokal kaufen. | Der Benutzer sollte das Vokal gekauft haben. |
-| A.2  | Applikation ist gestartet. | 1. Ein Spiel starten.<br>2. Solange am Glücksrad drehen, bis das Feld "Bankrott" erdreht wird. | Der Kontostand sollte auf null gehen. |
+| B.1  | Applikation ist gestartet. | 1. Ein Spiel starten. | Das Spiel sollte im Darkmode implementiert sein. |
 
 # 5 Prototyp
 
