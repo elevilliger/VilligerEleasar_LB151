@@ -68,7 +68,6 @@ MySQL. Python greift dabei mittels eines "MySQL driver" auf die Datenbank zu. Ve
 | 8.1  | Applikation ist gestartet. | 1. Auf "Rangliste" klicken. | Die Rangliste sollte aufsteigend nach Rang / Höhe des Geldbetrags sortiert angezeigt werden. |
 | 9.1  | Applikation ist gestartet. | 1. Ein Spiel starten.<br>2. Einige Rätsel-Wörter / Phrasen beantworten. | Keine der Rätsel-Wörter / Phrase sollten zwei Mal vorkommen. |
 | 10.1 | Applikation ist gestartet. | 1. Ein Spiel starten.<br>2. Das Spiel beenden. | Das Spiel sollte beendet werden. |
-| B.1  | Applikation ist gestartet. | 1. Ein Spiel starten. | Das Design sollte übersichtlich sein. |
 
 # 5 Prototyp
 
