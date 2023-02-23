@@ -25,7 +25,7 @@ Ein Glücksradspiel, in dem man verschiedene Wörter schreiben kann.
 
 # 2 Technologie
 
-Python
+Mein Projekt möchte ich mittels Python, HTML & CSS implementieren. Dabei werde ich mit Visual Studio arbeiten.
 
 # 3 Datenbank
 
@@ -50,7 +50,7 @@ MySQL. Python greift dabei mittels eines "MySQL driver" auf die Datenbank zu. Ve
 | 9    | Muss            | Qualität      | Als ein Kandidat möchte ich dass mir Rätsel-Wörter und Phrasen nur einmal pro Spiel gestellt werden, damit die Spielbedingungen fair sind. |
 | 10   | Muss            | Funktional    | Als ein Kandidat möchte ich jederzeit spielen oder aufhören können, damit ich die Kontrolle über die Dauer des Spiels habe. |
 | A    | Muss            | Randbedingung | Als ein Programmierer möchte ich mein Spiel mittels Python implementieren, damit ich Spass beim Implementieren habe. |
-| B    | Muss            | Randbedingung | Als ein Kandidat möchte, dass das Spiel in Darkmode implementiert ist, damit es gut aussieht. |
+| B    | Muss            | Randbedingung | Als ein Kandidat möchte, dass das Spiel übersichtlich designt ist, damit ich mich gut zurechtfinden kann. |
 
  
 
@@ -68,7 +68,7 @@ MySQL. Python greift dabei mittels eines "MySQL driver" auf die Datenbank zu. Ve
 | 8.1  | Applikation ist gestartet. | 1. Auf "Rangliste" klicken. | Die Rangliste sollte aufsteigend nach Rang / Höhe des Geldbetrags sortiert angezeigt werden. |
 | 9.1  | Applikation ist gestartet. | 1. Ein Spiel starten.<br>2. Einige Rätsel-Wörter / Phrasen beantworten. | Keine der Rätsel-Wörter / Phrase sollten zwei Mal vorkommen. |
 | 10.1 | Applikation ist gestartet. | 1. Ein Spiel starten.<br>2. Das Spiel beenden. | Das Spiel sollte beendet werden. |
-| B.1  | Applikation ist gestartet. | 1. Ein Spiel starten. | Das Spiel sollte im Darkmode implementiert sein. |
+| B.1  | Applikation ist gestartet. | 1. Ein Spiel starten. | Das Design sollte übersichtlich sein. |
 
 # 5 Prototyp
 
