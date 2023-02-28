@@ -25,11 +25,11 @@ Ein Glücksradspiel, in dem man verschiedene Wörter schreiben kann.
 
 # 2 Technologie
 
-Mein Projekt möchte ich mittels Python, HTML & CSS implementieren. Dabei werde ich mit Visual Studio arbeiten.
+Mein Projekt möchte ich mittels HTML, CSS & JSF implementieren.
 
 # 3 Datenbank
 
-MySQL. Python greift dabei mittels eines "MySQL driver" auf die Datenbank zu. Vermutlich werde ich dazu den "MySQL Connector" verwenden.
+Für die Datenbank werde ich MySQL verwenden. Diesen werde ich mit JSF verbinden.
 
 # 4.1 User Stories
 
