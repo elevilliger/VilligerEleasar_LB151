@@ -124,10 +124,4 @@ Dieses Programm ist sehr unvollständig. Nicht mal die grundlegenden-Funktionnen
 
 # 9 `README.md`
 
-✍️ Beschreiben Sie ausführlich in einer README.md, wie Ihre Applikation gestartet und ausgeführt wird. Legen Sie eine geeignete Möglichkeit (Skript, Export, …) bei, Ihre Datenbank wiederherzustellen.
-
-# 10 Allgemeines
-
-- [ ] Ich habe die Rechtschreibung überprüft
-- [ ] Ich habe überprüft, dass die Nummerierung von Testfällen und User Stories übereinstimmen
-- [ ] Ich habe alle mit ✍️ markierten Teile ersetzt
+Siehe in diesem git-Projekt in main-Branch.
