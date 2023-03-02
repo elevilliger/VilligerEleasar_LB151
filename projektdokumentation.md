@@ -13,7 +13,7 @@ Villiger
 
 # 0 Ihr Projekt
 
-Ein Glücksradspiel, in dem man verschiedene Wörter schreiben kann.
+Ein Glücksradspiel, in dem man verschiedene Sätze / Wörter erraten muss.
 
 # 1 Analyse
 
