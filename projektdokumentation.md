@@ -49,7 +49,7 @@ Für die Datenbank werde ich MySQL verwenden. Diesen werde ich mit JSF verbinden
 | 8    | Muss            | Qualität      | Als ein Kandidat möchte ich, dass die Rangliste nach Rang, welcher durch die Höhe des Geldbetrags bestimmt wird, aufsteigend sortiert wird, damit ich eine übersichtliche Rangliste habe. |
 | 9    | Muss            | Qualität      | Als ein Kandidat möchte ich dass mir Rätsel-Wörter und Phrasen nur einmal pro Spiel gestellt werden, damit die Spielbedingungen fair sind. |
 | 10   | Muss            | Funktional    | Als ein Kandidat möchte ich jederzeit spielen oder aufhören können, damit ich die Kontrolle über die Dauer des Spiels habe. |
-| A    | Muss            | Randbedingung | Als ein Programmierer möchte ich mein Spiel mittels Python implementieren, damit ich Spass beim Implementieren habe. |
+| A    | Muss            | Randbedingung | Als ein Programmierer möchte ich mein Spiel mittels JSF implementieren, damit ich Spass beim Implementieren habe. |
 | B    | Muss            | Randbedingung | Als ein Kandidat möchte, dass das Spiel übersichtlich designt ist, damit ich mich gut zurechtfinden kann. |
 
  
