@@ -2,15 +2,14 @@
 
 Villiger
 
-| Datum    | Version | Zusammenfassung                                              |
-| -----    | ------- | ------------------------------------------------------------ |
+| Datum    | Version | Zusammenfassung                                                   |
+| -----    | ------- | ------------------------------------------------------------------|
 | 12.01.23 | 0.0.1   | Ich habe die Punkte 1 -5 in der Projekt-Dokumentation ausgefüllt. |
-|       | 0.0.2   |                                                              |
-|       | 0.0.3   |                                                              |
-|       | 0.0.4   |                                                              |
-|       | 0.0.5   |                                                              |
-|       | 0.0.6   |                                                              |
-|       | 1.0.0   |                                                              |
+| 19.01.23 | 0.0.2   | Ich habe das Login implementiert.|
+| 26.01.23 | 0.0.3   | Ich habe das ungefähre GUI implementiert.                                     |
+| 16.02.23 | 0.0.4   | Ich habe die Ranglisten-Anzeige implementiert.                                 |
+| 23.02.23 | 0.0.5   | Ich habe die Satz-Anzeige implementiert.                                       |
+| 02.03.23 | 1.0.0   | Ich habe die Punkte 6 - 9 in der Projekt-Dokumentation ausgefüllt.|
 
 # 0 Ihr Projekt
 
