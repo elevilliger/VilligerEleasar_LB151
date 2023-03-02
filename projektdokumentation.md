@@ -5,10 +5,10 @@ Villiger
 | Datum    | Version | Zusammenfassung                                                   |
 | -----    | ------- | ------------------------------------------------------------------|
 | 12.01.23 | 0.0.1   | Ich habe die Punkte 1 -5 in der Projekt-Dokumentation ausgefüllt. |
-| 19.01.23 | 0.0.2   | Ich habe das Login implementiert.|
-| 26.01.23 | 0.0.3   | Ich habe das ungefähre GUI implementiert.                                     |
-| 16.02.23 | 0.0.4   | Ich habe die Ranglisten-Anzeige implementiert.                                 |
-| 23.02.23 | 0.0.5   | Ich habe die Satz-Anzeige implementiert.                                       |
+| 19.01.23 | 0.0.2   | Ich habe das Login implementiert.                                 |
+| 26.01.23 | 0.0.3   | Ich habe das ungefähre GUI implementiert.                         |
+| 16.02.23 | 0.0.4   | Ich habe die Ranglisten-Anzeige implementiert.                    |
+| 23.02.23 | 0.0.5   | Ich habe die Satz-Anzeige implementiert.                          |
 | 02.03.23 | 1.0.0   | Ich habe die Punkte 6 - 9 in der Projekt-Dokumentation ausgefüllt.|
 
 # 0 Ihr Projekt
@@ -80,18 +80,28 @@ Quiz-Seite
 
 # 6 Implementation
 
-✍️ Halten Sie fest, wann Sie welche User Story bearbeitet haben
-
 | User Story | Datum | Beschreibung |
 | ---------- | ----- | ------------ |
-| ...        |       |              |
+| 1          | 19.01.23 | keine Probleme aufgetreten. |
+| 5          | 26.01.23 | keine Probleme aufgetreten. |
+| 6          | 26.01.23 | keine Probleme aufgetreten. |
+| 8          | 16.02.23 | keine Probleme aufgetreten. |
+| 10         | 16.02.23 | keine Probleme aufgetreben. |
 
 # 7 Projektdokumentation
 
 | US-№ | Erledigt? | Entsprechende Code-Dateien oder Erklärung |
 | ---- | --------- | ----------------------------------------- |
-| 1    | ja / nein |                                           |
-| ...  |           |                                           |
+| 1    | ja        | "Web Pages/login.xhtml" & "Source Packages/ch.bbbaden.login/LoginFilter.Java & LoginUserBean" |
+| 2    | nein      | Nicht genügend Zeit.                      |
+| 3    | nein      | Nicht genügend Zeit.                      |
+| 4    | nein      | Nicht genügend Zeit.                      |
+| 5    | ja        | "Web Pages/game.xhmtl" Z. 20              |
+| 6    | ja        | "Web Pages/game.xhtml" Z. 18 & 19         |
+| 7    | nein      | Nicht genügend Zeit.                      |
+| 8    | ja        | "Web Pages/ranklist.xhtml"                |
+| 9    | nein      | Nicht genügend Zeit, Sätze können mehrfach vorkommen. |
+| 10   | ja        | "Web Pages/game.xhtml" Z. 20              |
 
 # 8 Testprotokoll
 
@@ -99,8 +109,16 @@ Quiz-Seite
 
 | TC-№ | Datum | Resultat | Tester |
 | ---- | ----- | -------- | ------ |
-| 1.1  |       |          |        |
-| ...  |       |          |        |
+| 1.1  | 02.03.23 | OK    | E. Villiger |
+| 2.1  | 02.03.23 | N. OK | E. Villiger |
+| 3.1  | 02.03.23 | N. OK | E. Villiger |
+| 4.1  | 02.03.23 | N. OK | E. Villiger |
+| 5.1  | 02.03.23 | OK    | E. Villiger |
+| 6.1  | 02.03.23 | OK    | E. Villiger |
+| 7.1  | 02.03.23 | N. OK | E. Villiger |
+| 8.1  | 02.03.23 | OK    | E. Villiger |
+| 9.1  | 02.03.23 | N. OK | E. Villiger |
+| 10.1 | 02.03.23 | OK    | E. Villiger |
 
 ✍️ Vergessen Sie nicht, ein Fazit hinzuzufügen, welches das Test-Ergebnis einordnet.
 
