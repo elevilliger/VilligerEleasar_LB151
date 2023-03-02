@@ -105,7 +105,7 @@ Quiz-Seite
 
 # 8 Testprotokoll
 
-✍️ Fügen Sie hier den Link zu dem Video ein, welches den Testdurchlauf dokumentiert.
+https://clipchamp.com/watch/AsV4AMVIDuY
 
 | TC-№ | Datum | Resultat | Tester |
 | ---- | ----- | -------- | ------ |
@@ -120,7 +120,7 @@ Quiz-Seite
 | 9.1  | 02.03.23 | N. OK | E. Villiger |
 | 10.1 | 02.03.23 | OK    | E. Villiger |
 
-✍️ Vergessen Sie nicht, ein Fazit hinzuzufügen, welches das Test-Ergebnis einordnet.
+Dieses Programm ist sehr unvollständig. Nicht mal die grundlegenden-Funktionnen des Spiels wurden implementiert wodurch auch viele der Testfälle nicht durchgeführt werdenn konnten.
 
 # 9 `README.md`
 
