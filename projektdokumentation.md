@@ -124,4 +124,4 @@ Dieses Programm ist sehr unvollständig. Nicht mal die grundlegenden-Funktionnen
 
 # 9 `README.md`
 
-Siehe in diesem git-Projekt in main-Branch.
+Siehe in diesem git-Projekt im main-Branch.
